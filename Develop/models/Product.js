@@ -10,7 +10,7 @@ class Product extends Model {}
 Product.init(
   {
     id: {
-      types: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       primaryKey: true,
       allowNull: false,
       autoIncrement: true
@@ -41,7 +41,7 @@ Product.init(
         key: "id"
       }
     }
-    
+
   },
   {
     sequelize,
